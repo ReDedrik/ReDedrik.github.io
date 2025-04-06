@@ -60,3 +60,54 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
+/* Base nav styling */
+.main-nav {
+    list-style: none;
+    display: flex;
+    background-color: #0077cc;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-nav li {
+    position: relative;
+  }
+  
+  .main-nav a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-nav a:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Submenu (hidden by default) */
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #005fa3;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+  }
+  
+  .submenu li a {
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+  }
+  
+  /* Show submenu on hover */
+  .has-submenu:hover .submenu {
+    display: block;
+  }
+  
