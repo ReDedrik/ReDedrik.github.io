@@ -77,6 +77,10 @@ footer {
     margin: 0;
   }
   
+.center-image {
+    text-align: center;
+}
+
   .main-nav li {
     position: relative;
   }
@@ -89,7 +93,7 @@ footer {
   }
   
   .main-nav a:hover {
-    background-color: #005fa3;
+    background-color: #0868b1;
   }
   
   /* Submenu (hidden by default) */
@@ -107,7 +111,7 @@ footer {
   }
   
   .submenu li a {
-    padding: 0rem 1rem;
+    padding: 0.5rem 0rem;
     white-space: nowrap;
   }
   
