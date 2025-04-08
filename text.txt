@@ -46,8 +46,11 @@ The mirror cell gave me many headaches. I have spent many hours staring into the
 on a design that took some inspiration from a mirror cell @hillexed had done for his Leavitt telescope. Similar to their's I decided to have seperately printed vertical support, and as someone cleverly mentioned in the 
 atm discord, I used the xy-precision of a 3d printer to only hold on to the bevel of my mirror.
 
-
-
+###
+### Science
+###
+While you can read a thousand articles about the science behind optics and the engineering behind a mirror cell, I am firm in my belief that teaching (or in this case writing)
+is the best way to learn and cement your understanding of a topic. 
 
 ###
 ### Appendix

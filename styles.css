@@ -1,10 +1,20 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
 
 /* Header */
@@ -56,9 +66,8 @@ footer {
     background: #333;
     color: white;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    text-align: center;
 }
 
 /* Left align class */
@@ -120,4 +129,40 @@ footer {
     display: block;
   }
  
+  .photo-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;              /* space between the photos */
+    flex-wrap: wrap;        /* allows wrapping on small screens */
+    margin: 20px 0;
+  }
+  
+  .photo-row figure {
+    width: 45%;             /* each photo takes up ~half the row */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .photo-row img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;     /* optional: rounded corners */
+  }
+  
+  .photo-row figcaption {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  figure {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 8px;
+  }
   
