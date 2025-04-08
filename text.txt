@@ -31,7 +31,9 @@ have been from the temperature, as it is recommended to cure at 70 fahrenheit or
 began rough grinding. I exclusively used mirror on top (MOT) for this, and only used silicon carbide #80. Because my focal ratio was so high I had to grind very little, and all in all I only ended up working for about 90 minutes 
 before I had even surpassed my sagitta!
 
-
+Before I began fine grinding I took on the arduous but necessary task of cleaning the #80 grit off of my tool, mirror, and workspace. However when I was cleaning I noticed the grit had completely adhered to the tacky 
+epoxy of my first tool. Unfortunately this meant I could absolutely not use this tool for fine grinding. I made a second tool and much more thoroughly mixed the epoxy this time, as well as a much thinner coat. It is 
+miles better, and goes to show the only way to learn is to do.
 
 ###
 ### Design
@@ -44,10 +46,11 @@ The mirror cell gave me many headaches. I have spent many hours staring into the
 on a design that took some inspiration from a mirror cell @hillexed had done for his Leavitt telescope. Similar to their's I decided to have seperately printed vertical support, and as someone cleverly mentioned in the 
 atm discord, I used the xy-precision of a 3d printer to only hold on to the bevel of my mirror.
 
-Before I began fine grinding I took on the arduous but necessary task of cleaning the #80 grit off of my tool, mirror, and workspace. However when I was cleaning I noticed the grit had completely adhered to the tacky 
-epoxy of my first tool. Unfortunately this meant I could absolutely not use this tool for fine grinding. I made a second tool and much more thoroughly mixed the epoxy this time, as well as a much thinner coat. It is 
-miles better, and goes to show the only way to learn is to do.
-
+###
+### Science
+###
+While you can read a thousand articles about the science behind optics and the engineering behind a mirror cell, I am firm in my belief that teaching (or in this case writing)
+is the best way to learn and cement your understanding of a topic. 
 
 ###
 ### Appendix
