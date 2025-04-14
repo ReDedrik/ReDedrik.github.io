@@ -1,3 +1,7 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 /* General Styles */
 html, body {
     height: 100%;
@@ -7,10 +11,13 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0b0b0;
+    margin: 0;
+    padding: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
@@ -22,10 +29,24 @@ header {
     background: #333;
     color: white;
     padding: 18px 0;
+    width: 100%;
+    margin: 0;
 }
 
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
 header h1 {
-    margin: 10px;
+    margin: 0;
+    padding: 10px 0;
     font-size: 24px;
 }
 
@@ -61,14 +82,7 @@ nav ul li a.active {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
-footer {
-    background: #333;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-}
+
 
 /* Left align class */
 .left-align {
@@ -119,11 +133,32 @@ footer {
     z-index: 1000;
   }
   
+  .wrapper {
+    max-width: 700px;   /* or whatever fixed width you prefer */
+    margin: 0 auto;      /* centers the content horizontally */
+    padding: 0px;       /* space around the content */
+    box-sizing: border-box;
+    background-color: white;
+    flex: 1;
+  }
+
   .submenu li a {
     padding: 0.5rem 0rem;
     white-space: nowrap;
   }
+  @media (max-width: 600px) {
+    .wrapper {
+      padding: 10px;
+    }
   
+    nav ul li a {
+      font-size: 16px;
+    }
+  
+    header h1 {
+      font-size: 20px;
+    }
+  }
   /* Show submenu on hover */
   nav ul li:hover > ul.submenu {
     display: block;
@@ -164,11 +199,5 @@ footer {
     font-size: 0.9em;
     color: #555;
     margin-top: 8px;
-  }
-
-  .photo img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
   }
   
