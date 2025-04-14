@@ -77,7 +77,6 @@ nav ul li a.active {
     background: white;
     margin: 20px auto;
     width: 80%;
-    max-width: 600px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -134,7 +133,7 @@ nav ul li a.active {
   }
   
   .wrapper {
-    max-width: 1500px;   /* or whatever fixed width you prefer */
+    max-width: 1000px;   /* or whatever fixed width you prefer */
     margin: 0 auto;      /* centers the content horizontally */
     padding: 0px;       /* space around the content */
     box-sizing: border-box;
