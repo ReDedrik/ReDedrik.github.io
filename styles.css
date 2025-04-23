@@ -199,4 +199,51 @@ nav ul li a.active {
     color: #555;
     margin-top: 8px;
   }
-  
+  /* Blog post card container */
+.blog-post-preview {
+  background-color: #fdf6f0; /* Light background color */
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.blog-post-preview:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* Blog images inside post previews */
+.blog-post-preview img.blog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Title and date */
+.blog-post-preview h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.blog-post-preview p.blog-date {
+  font-size: 0.85em;
+  color: #777;
+}
+
+/* Blog text preview */
+.blog-post-preview p {
+  color: #444;
+  margin: 5px 0 10px;
+}
+
+/* Optional: link style reset */
+.blog-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
