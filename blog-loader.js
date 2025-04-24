@@ -3,21 +3,18 @@ window.addEventListener("DOMContentLoaded", () => {
     .then(response => response.json())
     .then(posts => {
       const container = document.getElementById("blog-container");
-      posts.sort((a, b) => new Date(b.date) - new Date(a.date)); // Newest first
+      posts.sort((a, b) => new Date(b.date) - new Date(a.date)); // still sort by Date object
 
       posts.forEach(post => {
-        const hasImage = post.image && post.image.trim() !== "";
-        const imageHTML = hasImage
-          ? `<img src="${post.image}" alt="${post.title}" class="blog-image">`
-          : "";
+        const [year, month, day] = post.date.split("-");
+        const formattedDate = `${month}/${day}/${year}`;
 
         const postHTML = `
           <div class="blog-post-preview">
             <a href="${post.link}" class="blog-link">
-              ${imageHTML}
               <h3>${post.title}</h3>
               <p>${post.snippet}</p>
-              <p class="blog-date">${new Date(post.date).toLocaleDateString()}</p>
+              <p class="blog-date">${formattedDate}</p>
             </a>
           </div>
         `;
@@ -25,3 +22,4 @@ window.addEventListener("DOMContentLoaded", () => {
       });
     });
 });
+
